@@ -43,3 +43,13 @@ function quickSort(arr, left =0, right = arr.length-1){
 
 
 */
+
+
+/* 
+    # has a space complaxity of O(logn) Since the smallest sub-array is always 
+        less than half the size of the entire array, 
+        the recursive call stack then becomes a guaranteed 𝑂(log𝑛).
+    # Average time Complexity of O(nlogn) since there are O(n) comparisen for each sub array
+      and O(logn) decomposition
+    # Worst case time Complexity of O(n^2) if the array is ordered array
+*/
